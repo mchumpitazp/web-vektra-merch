@@ -1,0 +1,322 @@
+{
+    "product-category": [
+        {
+            "title": "всё",
+            "filter": "all"
+        },
+        {
+            "title": "мерч",
+            "filter": "merch"
+        },
+        {
+            "title": "подарочные сертификаты",
+            "filter": "voucher"
+        },
+        {
+            "title": "Премиум подписки",
+            "filter": "suscription"
+        },
+        {
+            "title": "развлечения",
+            "filter": "entertainment"
+        },
+        {
+            "title": "приятные бонусы",
+            "filter": "bonus"
+        }
+    ],
+    "product": [
+        {
+            "category": "merch",
+            "src": "/products/Rectangle 197.png",
+            "title": "Футболка «Ценности»",
+            "amount": 43
+        },
+        {
+            "category": "merch",
+            "src": "/products/Rectangle 198.png",
+            "title": "Футболка «Панели»",
+            "amount": 42
+        },
+        {
+            "category": "merch",
+            "src": "/products/Rectangle 199.png",
+            "title": "Бутылка для воды «Координаты»",
+            "amount": 24
+        },
+        {
+            "category": "merch",
+            "src": "/products/Rectangle 200.png",
+            "title": "Футболка «Объект»",
+            "amount": 43
+        },
+        {
+            "category": "merch",
+            "src": "/products/Rectangle 201.png",
+            "title": "Картхолдер «Координаты»",
+            "amount": 8
+        },
+        {
+            "category": "merch",
+            "src": "/products/Rectangle 202.png",
+            "title": "Стикеры «Бусики»",
+            "amount": 34
+        },
+        {
+            "category": "merch",
+            "src": "/products/Rectangle 203.png",
+            "title": "Блокнот «Панели»",
+            "amount": 20
+        },
+        {
+            "category": "voucher",
+            "src": "/products/Rectangle 204.png",
+            "title": "Твой Тай",
+            "subtitle": "Сертификат",
+            "amount": 21,
+            "amount_extra": 80
+        },
+        {
+            "category": "voucher",
+            "src": "/products/Rectangle 205.png",
+            "title": "Золотое Яблоко",
+            "subtitle": "Сертификат",
+            "amount": 30
+        },
+        {
+            "category": "voucher",
+            "src": "/products/Rectangle 206.png",
+            "title": "Лэтуаль",
+            "subtitle": "Сертификат",
+            "amount": 30
+        },
+        {
+            "category": "voucher",
+            "src": "/products/Rectangle 207.png",
+            "title": "Читай город",
+            "subtitle": "Сертификат",
+            "amount": 30
+        },
+        {
+            "category": "voucher",
+            "src": "/products/Rectangle 208.png",
+            "title": "МетроFitness",
+            "subtitle": "Оплата части абонемента в зал: 12 месяцев",
+            "amount": 30
+        },
+        {
+            "category": "voucher",
+            "src": "/products/Rectangle 209.png",
+            "title": "OZON",
+            "subtitle": "Сертификат",
+            "amount": 50
+        },
+        {
+            "category": "voucher",
+            "src": "/products/Rectangle 210.png",
+            "title": "Lamoda",
+            "subtitle": "Сертификат",
+            "amount": 50
+        },
+        {
+            "category": "voucher",
+            "src": "/products/Rectangle 211.png",
+            "title": "Sunlight",
+            "subtitle": "Сертификат",
+            "amount": 50
+        },
+        {
+            "category": "voucher",
+            "src": "/products/Rectangle 212.png",
+            "title": "Детский мир",
+            "subtitle": "Сертификат",
+            "amount": 50
+        },
+        {
+            "category": "voucher",
+            "src": "/products/Rectangle 213.png",
+            "title": "Пятёрочка",
+            "subtitle": "Сертификат",
+            "amount": 30
+        },
+        {
+            "category": "voucher",
+            "src": "/products/Rectangle 214.png",
+            "title": "Магнит",
+            "subtitle": "Сертификат",
+            "amount": 30
+        },
+        {
+            "category": "voucher",
+            "src": "/products/Rectangle 215.png",
+            "title": "Лента",
+            "subtitle": "Сертификат",
+            "amount": 30
+        },
+        {
+            "category": "voucher",
+            "src": "/products/Rectangle 216.png",
+            "title": "Ашан",
+            "subtitle": "Сертификат",
+            "amount": 30
+        },
+        {
+            "category": "voucher",
+            "src": "/products/Rectangle 217.png",
+            "title": "Перекрёсток",
+            "subtitle": "Сертификат",
+            "amount": 30
+        },
+        {
+            "category": "voucher",
+            "src": "/products/Rectangle 218.png",
+            "title": "Metro",
+            "subtitle": "Сертификат",
+            "amount": 30
+        },
+        {
+            "category": "suscription",
+            "src": "/products/Rectangle 219.png",
+            "title": "Литрес",
+            "subtitle": "Премиум подписка на 3 мес.",
+            "amount": 10
+        },
+        {
+            "category": "suscription",
+            "src": "/products/Rectangle 220.png",
+            "title": "Яндекс Музыка",
+            "subtitle": "Премиум подписка на 3 мес.",
+            "amount": 10
+        },
+        {
+            "category": "suscription",
+            "src": "/products/Rectangle 221.png",
+            "title": "Иви",
+            "subtitle": "Премиум подписка на 3 мес.",
+            "amount": 10
+        },
+        {
+            "category": "entertainment",
+            "src": "/products/Rectangle 222.png",
+            "title": "Билеты на концерт / музей *2",
+            "amount": 50
+        },
+        {
+            "category": "entertainment",
+            "src": "/products/Rectangle 223.png",
+            "title": "Билеты в кино *2",
+            "amount": 15
+        },
+        {
+            "category": "entertainment",
+            "src": "/products/Rectangle 224.png",
+            "title": "Необычные экскурсии от Города-курорт *2",
+            "amount": 80
+        },
+        {
+            "category": "bonus",
+            "src": "/products/Rectangle 225.png",
+            "title": "Один день работы на более высокой должности",
+            "subtitle": "с сапортом от наставника",
+            "amount": 75
+        },
+        {
+            "category": "bonus",
+            "src": "/products/Rectangle 226.png",
+            "title": "Корпоративный бранч с директором",
+            "subtitle": "— Денис Владимирович\n— Директор закупок и логистики Ирина\n— Коммерческий директор Елизавета\n— Административный директор Алина\n* ресторан Luna Sole",
+            "amount": 150
+        },
+        {
+            "category": "bonus",
+            "src": "/products/Rectangle 227.png",
+            "title": "Корпоративный ужин с командой и директором",
+            "subtitle": "*командный лот*",
+            "amount": 500
+        },
+        {
+            "category": "bonus",
+            "src": "/products/Rectangle 228.png",
+            "title": "Парковочное место на 1 месяц / 1 сотрудник",
+            "amount": 200
+        }
+    ],
+    "panels": [
+        {
+            "title": "Панельки начисляют",
+            "description": "Директор компании «Вектра»\nДиректор одного из четырёх департаментов (административный / коммерческий / финансовый / закупок и логистики)"
+        },
+        {
+            "title": "Панельки нельзя",
+            "description": "Передавать\nДарить\nОбменять на рубли"
+        },
+        {
+            "title": "Панельки можно",
+            "description": "Накопить самостоятельно\nКупить товар в Магазине самостоятельно\nКупить товар в Магазине *командно*"
+        }
+    ],
+    "faqs": [
+        {
+            "question": "Могу ли я никуда не потратить зеленые панельки и получить больший доход в следующем месяце?",
+            "answer": "Зелёные панельки копятся в течении всего периода работы в компании и не сгорают, их можно только потратить самостоятельно."
+        },
+        {
+            "question": "Получу ли я что-то, если приведу работать друга в нашу компанию?",
+            "answer": "Да, зелёные панельки начисляются после того как новый коллега (которого вы рекомендовали) пройдет успешно испытательный срок."
+        },
+        {
+            "question": "Как стать героем видео из нашего корпоративного инстаграм-канала?",
+            "answer": "Необходимо заранее написать в Viber Валерии Епифановой, вам будет отправлен наш контент-план. Вы выбираете в каком reel's хотели бы сняться и вам рассказывают о возможности съемки и отправляют сценарий."
+        },
+        {
+            "question": "Сколько по времени будет идти доставка мерча?",
+            "answer": "Все подарки по купленным Зелёным панелькам вручаются по факту доставки — магазин открывается один раз в месяц (как и начисление — один раз в месяц). Это займет от 1 до 14 дней."
+        },
+        {
+            "question": "Можно ли дарить/менять/передавать панельки?",
+            "answer": "К сожалению, согласно правилам установленных в компании «Вектра», дарить/менять/передавать панельки другим коллегам запрещено."
+        },
+        {
+            "question": "Можно ли купить панельки за рубли?",
+            "answer": "К сожалению, согласно правилам, установленным в компании «Вектра», купить виртуальную валюту (зелёные панельки) за рубли невозможно."
+        }
+    ],
+    "statistics": [
+        {
+            "personName": "Julia",
+            "personImage": "/images/person.png",
+            "greenCards": 99,
+            "yellowCards": 0
+        },
+        {
+            "personName": "Julia",
+            "personImage": "/images/person.png",
+            "greenCards": 49,
+            "yellowCards": 1
+        },
+        {
+            "personName": "Julia",
+            "personImage": "/images/person.png",
+            "greenCards": 99,
+            "yellowCards": 0
+        },
+        {
+            "personName": "Julia",
+            "personImage": "/images/person.png",
+            "greenCards": 99,
+            "yellowCards": 0
+        },
+        {
+            "personName": "Julia",
+            "personImage": "/images/person.png",
+            "greenCards": 49,
+            "yellowCards": 1
+        },
+        {
+            "personName": "Julia",
+            "personImage": "/images/person.png",
+            "greenCards": 99,
+            "yellowCards": 0
+        }
+    ]
+}
