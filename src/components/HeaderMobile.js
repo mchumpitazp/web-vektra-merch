@@ -34,7 +34,7 @@ export default function HeaderMobile() {
     return (
         <header id="header-mobile" className="d-block d-md-none m-auto">
             <nav className="navbar navbar-expand-md h-100">
-                <div className="container px-0">
+                <div className="container">
                     <a className="navbar-brand" href="/">
                         <img src="/images/logo.svg" alt="logo" width="150" height="57" />
                     </a>

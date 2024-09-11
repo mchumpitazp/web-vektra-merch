@@ -2,6 +2,7 @@
 
 $vektra-orange: #FF6600;
 $vektra-black: #232323;
+$vektra-gray: #999999;
 
 body {
     margin: 0;    
@@ -34,6 +35,7 @@ body {
 
 .bg-color-orange { background-color: $vektra-orange;}
 .text-color-orange { color: $vektra-orange;}
+.text-color-gray { color: $vektra-gray;}
 
 .btn-orange {
     background: $vektra-orange;
@@ -46,7 +48,9 @@ body {
 .max-w-global { max-width: 1200px; }
 
 @media (max-width: 575px) {
-    .mobile-max-width { max-width: 320px !important; }
+    .mobile-max-width { max-width: 300px !important; }
+
+    .mobile-width-250 { max-width: 250px !important; }
 }
 
 // Override Bootstrap
@@ -486,7 +490,30 @@ body {
     }
 }
 
+.product-detail {
+        
+        .dropdown-toggle,
+        .dropdown-menu,
+        .btn-add {
+            width: 160px;
+        }
+        
+        .dropdown-toggle,
+        .dropdown-menu li,
+        .btn-add {
+            height: 35px;
+            line-height: 35px;
+        }
 
+        .dropdown-menu li:hover {
+            cursor: pointer;
+            background-color: #F2F2F2;
+        }
+        
+        .dropdown-toggle::after {
+            display: none;
+        }
+}
 
 #panels {
     .panels-title {
