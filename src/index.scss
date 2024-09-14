@@ -564,3 +564,22 @@ body {
         margin-top: 0 !important;
     }
 }
+
+#cart {
+    .header-back-btn { display: none; }
+    #cart-title { fill: $vektra-black;}
+}
+
+@media (max-width: 575px) {
+    #cart {
+        background-color: $vektra-black;
+
+        .header-back {
+            .header-back-btn { display: block; }            
+            img { filter: brightness(0) invert(1); }
+            span { color: white !important; }
+        }
+
+        #cart-title { fill: white;}
+    }
+}

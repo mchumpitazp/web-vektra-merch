@@ -19,7 +19,7 @@ export default function MainFaq() {
     })
 
     return (
-        <section className="container mobile-max-width my-5 py-5">
+        <section id='faq' className="container mobile-max-width my-5 py-5">
             <div className="row row-cols-1 row-cols-md-2">
                 {renderFAQ}
             </div>

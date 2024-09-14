@@ -1,6 +1,6 @@
 export default function MainHowItWorks() {
     return (
-        <section id="how-it-works" className="container my-5 py-0 py-md-5">
+        <section id="how-it-works" className="container mt-5 py-0 pt-md-5">
             <h2 className="font-xl font-medium text-uppercase mb-3 mb-md-4">
                 Как это работает?
             </h2>

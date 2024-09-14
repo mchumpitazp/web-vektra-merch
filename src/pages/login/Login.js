@@ -5,6 +5,7 @@ export default function Login() {
     return (
         <section id="login">
             <HeaderBack />
+
             <div id="login-container" className="row row-cols-1 row-cols-lg-2 m-0">
                 <div id="login-message" className="col p-0">
                     <div className="w-100 position-relative d-flex flex-column justify-content-center align-items-center">
@@ -20,9 +21,9 @@ export default function Login() {
                         </div>
                         <svg id="message-box" className="p-xxl-5" viewBox="0 0 517 372" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <mask id="path-1-inside-1_282_286" fill="white">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M43.5919 0C19.5168 0 0 19.5168 0 43.592V285.091C0 309.166 19.5168 328.683 43.5919 328.683H56.6692L56.6693 371.403L105.998 328.683H473.408C497.483 328.683 517 309.166 517 285.091V43.5919C517 19.5168 497.483 0 473.408 0H43.5919Z" />
+                                <path fillRule="evenodd" clipRule="evenodd" d="M43.5919 0C19.5168 0 0 19.5168 0 43.592V285.091C0 309.166 19.5168 328.683 43.5919 328.683H56.6692L56.6693 371.403L105.998 328.683H473.408C497.483 328.683 517 309.166 517 285.091V43.5919C517 19.5168 497.483 0 473.408 0H43.5919Z" />
                             </mask>
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M43.5919 0C19.5168 0 0 19.5168 0 43.592V285.091C0 309.166 19.5168 328.683 43.5919 328.683H56.6692L56.6693 371.403L105.998 328.683H473.408C497.483 328.683 517 309.166 517 285.091V43.5919C517 19.5168 497.483 0 473.408 0H43.5919Z" fill="white" />
+                            <path fillRule="evenodd" clipRule="evenodd" d="M43.5919 0C19.5168 0 0 19.5168 0 43.592V285.091C0 309.166 19.5168 328.683 43.5919 328.683H56.6692L56.6693 371.403L105.998 328.683H473.408C497.483 328.683 517 309.166 517 285.091V43.5919C517 19.5168 497.483 0 473.408 0H43.5919Z" fill="white" />
                             <path d="M56.6692 328.683H57.541V327.811H56.6692V328.683ZM56.6693 371.403H55.7975L55.7975 373.312L57.24 372.062L56.6693 371.403ZM105.998 328.683V327.811H105.673L105.427 328.024L105.998 328.683ZM0.871838 43.592C0.871838 19.9983 19.9983 0.871838 43.5919 0.871838V-0.871838C19.0353 -0.871838 -0.871838 19.0353 -0.871838 43.592H0.871838ZM0.871838 285.091V43.592H-0.871838V285.091H0.871838ZM43.5919 327.811C19.9983 327.811 0.871838 308.685 0.871838 285.091H-0.871838C-0.871838 309.648 19.0353 329.555 43.5919 329.555V327.811ZM56.6692 327.811H43.5919V329.555H56.6692V327.811ZM57.5411 371.403L57.541 328.683H55.7974L55.7975 371.403H57.5411ZM105.427 328.024L56.0985 370.744L57.24 372.062L106.569 329.342L105.427 328.024ZM473.408 327.811H105.998V329.555H473.408V327.811ZM516.128 285.091C516.128 308.685 497.002 327.811 473.408 327.811V329.555C497.965 329.555 517.872 309.648 517.872 285.091H516.128ZM516.128 43.5919V285.091H517.872V43.5919H516.128ZM473.408 0.871838C497.002 0.871838 516.128 19.9983 516.128 43.5919H517.872C517.872 19.0353 497.965 -0.871838 473.408 -0.871838V0.871838ZM43.5919 0.871838H473.408V-0.871838H43.5919V0.871838Z" fill="#232323" mask="url(#path-1-inside-1_282_286)" />
                         </svg>
                         <div id="login-message-lines">
@@ -41,7 +42,7 @@ export default function Login() {
                             </svg>
                             <form className="mt-5 w-100">
                                 <div className="mb-3">
-                                    <label for="login-email"
+                                    <label htmlFor="login-email"
                                         className="form-label font-lg font-regular">
                                         Email
                                     </label>
@@ -50,8 +51,8 @@ export default function Login() {
                                         id="login-email"
                                         placeholder="Введите свой email" />
                                 </div>
-                                <div class="mb-3">
-                                    <label for="login-password"
+                                <div className="mb-3">
+                                    <label htmlFor="login-password"
                                         className="form-label font-lg font-regular">
                                         Пароль
                                     </label>

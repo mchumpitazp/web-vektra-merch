@@ -1,7 +1,16 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 export default function HeaderMobile() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const btnBackRef = useRef(null);
+
+    const scrollToSection = (section) => {
+        setIsMenuOpen(false);
+        setTimeout(() => {
+            const element = document.getElementById(section);
+            if (element) element.scrollIntoView({ behavior: 'smooth' });
+        }, 300);
+    };
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
@@ -48,7 +57,7 @@ export default function HeaderMobile() {
                         aria-label="Toggle navigation"
                     >
                         {isMenuOpen ? (
-                            <span className='font-xs font-regular text-uppercase'>
+                            <span ref={btnBackRef} className='font-xs font-regular text-uppercase'>
                                 назад
                             </span>
                         ) : (
@@ -66,26 +75,41 @@ export default function HeaderMobile() {
                         <div className='h-100'>
                             <ul className="navbar-nav mt-4">
                                 <li className="nav-item">
-                                    <a className="nav-link" href="/">
+                                    <span
+                                        className="nav-link"
+                                        onClick={() => scrollToSection("products")}
+                                        style={{ cursor: "pointer" }}
+                                    >
                                         каталог
-                                    </a>
+                                    </span>
                                 </li>
                                 <li><hr /></li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="/">
+                                    <span
+                                        className="nav-link"
+                                        onClick={() => scrollToSection("faq")}
+                                        style={{ cursor: "pointer" }}
+                                    >
                                         faq
-                                    </a>
+                                    </span>
                                 </li>
                                 <li><hr /></li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="/">
+                                    <span
+                                        className="nav-link"
+                                        onClick={() => scrollToSection("")}
+                                        style={{ cursor: "pointer" }}
+                                    >
                                         личный кабинет
-                                    </a>
+                                    </span>
                                 </li>
                                 <li><hr /></li>
                                 <li className="nav-item px-0">
-                                    <a className="nav-link" href="/">
-                                        корзина (0)
+                                    <a
+                                        className="nav-link"
+                                        href='/cart'
+                                    >
+                                        корзина
                                     </a>
                                 </li>
                             </ul>
