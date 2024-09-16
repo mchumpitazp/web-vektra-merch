@@ -568,6 +568,41 @@ body {
 #cart {
     .header-back-btn { display: none; }
     #cart-title { fill: $vektra-black;}
+
+    .cart-item {
+        .dropdown {
+            .dropdown-toggle,
+            .dropdown-menu {
+                width: 160px;
+                background-color: white;
+            }
+
+            .dropdown-toggle,
+            .dropdown-menu li,
+            .btn-add {
+                height: 35px;
+                line-height: 35px;
+            }
+
+            .dropdown-menu li:hover {
+                cursor: pointer;
+                background-color: #F2F2F2;
+            }
+            
+            .dropdown-toggle::after {
+                display: none;
+            }
+        }
+
+        .cart-item-quantity {
+            width: 80px;
+
+            .input-group { 
+                height: 35px;
+                .btn { width: 25px;}
+            } 
+        }
+    }
 }
 
 @media (max-width: 575px) {
@@ -581,5 +616,15 @@ body {
         }
 
         #cart-title { fill: white;}
+
+        .cart-item {
+            .cart-item-title { color: white;}
+
+            .cart-item-quantity {
+                .input-group { 
+                    background-color: white;
+                } 
+            }
+        }
     }
 }

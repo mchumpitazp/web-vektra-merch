@@ -2,6 +2,7 @@ import React from "react";
 
 export default function SingleCartItem({ item }) {
     const [size, setSize] = React.useState(item.size ? item.size : null);
+    const [quantity, setQuantity] = React.useState(1);
 
     const renderSizes = item.sizes?.map((s, index) => {
         return (
@@ -13,24 +14,52 @@ export default function SingleCartItem({ item }) {
         )
     });
 
+    const handleDecrease = () => {
+        if (quantity > 1) {
+            setQuantity(quantity - 1);
+        }
+    };
+
+    const handleIncrease = () => {
+        setQuantity(quantity + 1);
+    };
+
     return (
-        <article>
+        <article className="cart-item col">
             <img
                 src={item.src}
                 alt={item.src}
-                className='object-fit-contain mb-3'
+                className='d-block d-md-none object-fit-contain mb-3'
                 width={250}
-                height={339}
+                height={340}
                 style={{ backgroundColor: "#F2F2F2" }}
             />
 
-            <h2
-                className="font-lg font-medium mb-3 text-white"
+            <img
+                src={item.src}
+                alt={item.src}
+                className='d-none d-md-block img-fluid'
+                height={340}
+                style={{ backgroundColor: "#F2F2F2" }}
+            />
+
+            <h3
+                className="cart-item-title font-lg font-medium mb-3"
                 style={{ letterSpacing: "-0.01em" }}>
                 {item.title}
-            </h2>
+            </h3>
 
-            <div hidden={!item.size || !item.sizes}>
+            <p className="font-sm font-regular text-uppercase mb-3">
+                {item.amount} З.П.
+            </p>
+
+            <div className="d-none d-md-block">
+                <p hidden={!item.size} className="font-sm text-color-gray mb-3">
+                    Размер {item.size}
+                </p>
+            </div>
+
+            <div hidden={!item.size || !item.sizes} className="d-block d-md-none mb-3">
                 <p className="font-sm text-color-gray mb-2">
                     Размер
                 </p>
@@ -46,6 +75,31 @@ export default function SingleCartItem({ item }) {
                     <ul className="dropdown-menu border-black rounded-3 overflow-hidden text-color-gray">
                         {renderSizes}
                     </ul>
+                </div>
+            </div>
+
+            <div className="cart-item-quantity">
+                <div className="input-group w-100 border border-1 border-black rounded-3">
+                    <button
+                        className="btn text-color-gray border-none rounded-start-3 p-0"
+                        type="button"
+                        onClick={handleDecrease}
+                    >
+                        -
+                    </button>
+                    <input
+                        type="text"
+                        className="form-control text-center border-0 p-0"
+                        value={quantity}
+                        readOnly
+                    />
+                    <button
+                        className="btn text-color-gray border-none rounded-end-3 p-0"
+                        type="button"
+                        onClick={handleIncrease}
+                    >
+                        +
+                    </button>
                 </div>
             </div>
         </article>

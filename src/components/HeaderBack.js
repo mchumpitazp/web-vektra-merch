@@ -1,6 +1,6 @@
 export default function HeaderBack() {
     return (
-        <header className="header-back py-2 py-md-4">
+        <header className="container header-back py-2 py-md-4">
             <nav className="navbar h-100">
                 <div className="container">
                     <a className="navbar-brand" href="/">
