@@ -605,7 +605,7 @@ body {
     }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 767px) {
     #cart {
         background-color: $vektra-black;
 
@@ -615,10 +615,36 @@ body {
             span { color: white !important; }
         }
 
+        #cart-total { 
+            color: white;
+            height: auto !important;
+        }
         #cart-title { fill: white;}
 
+        #cart-total-lines {
+            #cart-total-line-1 {
+                border-color: white;
+                border-width: 0.5px;
+                opacity: 100%;
+                position: absolute;
+                right: 0;
+                width: 90vw;
+            }
+
+            #cart-total-line-2,
+            #cart-total-line-3 {
+                border-color: white;
+                border-width: 0.5px;
+                opacity: 100%;
+                position: absolute;
+                left: 0;
+                width: 100vw;
+            }
+        }
+
         .cart-item {
-            .cart-item-title { color: white;}
+            .cart-item-title,
+            .cart-item-price { color: white;}
 
             .cart-item-quantity {
                 .input-group { 

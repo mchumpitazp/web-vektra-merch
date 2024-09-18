@@ -340,7 +340,7 @@
         },
         {
             "category": "merch",
-            "src": "/products/Rectangle 200.png",
+            "src": "/products/Rectangle 197.png",
             "title": "Футболка «Объект»",
             "amount": 43,
             "size": "M",
@@ -352,9 +352,9 @@
         },
         {
             "category": "merch",
-            "src": "/products/Rectangle 199.png",
-            "title": "Бутылка для воды «Координаты»",
-            "amount": 24
+            "src": "/products/Rectangle 201.png",
+            "title": "Картхолдер «Координаты»",
+            "amount": 8
         }
     ]
 }
