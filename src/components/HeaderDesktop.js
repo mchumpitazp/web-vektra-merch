@@ -33,13 +33,12 @@ export default function HeaderDesktop() {
                                 </span>
                             </li>
                             <li className="nav-item">
-                                <span
-                                    className="nav-link px-0 mx-4 mx-xxl-5"
-                                    onClick={() => scrollToSection("")}
-                                    style={{ cursor: "pointer" }}
+                                <a
+                                    className="nav-link px-0 ms-4 ms-xxl-5"
+                                    href="/login"
                                 >
                                     личный кабинет
-                                </span>
+                                </a>
                             </li>
                             <li className="nav-item px-0">
                                 <a

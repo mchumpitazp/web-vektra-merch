@@ -95,13 +95,12 @@ export default function HeaderMobile() {
                                 </li>
                                 <li><hr /></li>
                                 <li className="nav-item">
-                                    <span
+                                    <a
                                         className="nav-link"
-                                        onClick={() => scrollToSection("")}
-                                        style={{ cursor: "pointer" }}
+                                        href='/login'
                                     >
                                         личный кабинет
-                                    </span>
+                                    </a>
                                 </li>
                                 <li><hr /></li>
                                 <li className="nav-item px-0">
