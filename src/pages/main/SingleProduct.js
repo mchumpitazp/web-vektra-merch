@@ -46,6 +46,7 @@ export default function SingleProduct(props) {
                             <ProductDetail
                                 title={props.title}
                                 price={props.amount}
+                                sizes={props.sizes}
                                 setShowDetail={setShowDetail}
                             />
                         </div>

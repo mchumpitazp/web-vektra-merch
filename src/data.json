@@ -30,13 +30,23 @@
             "category": "merch",
             "src": "/products/Rectangle 197.png",
             "title": "Футболка «Ценности»",
-            "amount": 43
+            "amount": 43,
+            "sizes": [
+                "M",
+                "L",
+                "XL"
+            ]
         },
         {
             "category": "merch",
             "src": "/products/Rectangle 198.png",
             "title": "Футболка «Панели»",
-            "amount": 42
+            "amount": 42,
+            "sizes": [
+                "M",
+                "L",
+                "XL"
+            ]
         },
         {
             "category": "merch",
@@ -48,7 +58,12 @@
             "category": "merch",
             "src": "/products/Rectangle 200.png",
             "title": "Футболка «Объект»",
-            "amount": 43
+            "amount": 43,
+            "sizes": [
+                "M",
+                "L",
+                "XL"
+            ]
         },
         {
             "category": "merch",

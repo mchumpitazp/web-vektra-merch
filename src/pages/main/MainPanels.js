@@ -76,16 +76,21 @@ export default function MainPanels() {
                             Панельки Зеленого цвета начисляются согласно Общим правилам компании и Правилам начисления в зависимости от департамента каждого сотрудника.
                         </p>
                         <div>
-                            <button className="d-block d-lg-none btn btn-light rounded-3 px-4 pt-0 pb-1 pt-md-1 pb-md-2">
-                                <span className="panels-bg-text">
-                                    Посмотреть правила
-                                </span>
-                            </button>
-                            <button className="d-none d-lg-block btn btn-outline-light btn-orange rounded-4 px-5 py-3">
-                                <span className="panels-bg-text">
-                                    Посмотреть правила
-                                </span>
-                            </button>
+                            <a className="text-decoration-none"
+                                href="https://docs.google.com/spreadsheets/d/19aYbAJDoiKr4xf9GlFrCxBKHPaXC-hGHDmZJ89xMVV0/edit?gid=709250582#gid=709250582"
+                                target="_blank" rel="noopener noreferrer"
+                            >
+                                <button className="d-block d-lg-none btn btn-light rounded-3 px-4 pt-0 pb-1 pt-md-1 pb-md-2">
+                                    <span className="panels-bg-text">
+                                        Посмотреть правила
+                                    </span>
+                                </button>
+                                <button className="d-none d-lg-block btn btn-outline-light btn-orange rounded-4 px-5 py-3">
+                                    <span className="panels-bg-text">
+                                        Посмотреть правила
+                                    </span>
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>

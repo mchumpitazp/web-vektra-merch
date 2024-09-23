@@ -1,10 +1,10 @@
 import React from "react";
 import ImageCarousel from "./ImageCarousel";
 
-export default function ProductDetail({ title, description, images, price, sizes = ["M", "L", "XL"], setShowDetail }) {
+export default function ProductDetail({ title, description, images, price, sizes = null, setShowDetail }) {
     const [size, setSize] = React.useState(sizes ? sizes[0] : null);
 
-    const renderSizes = sizes.map((s, index) => {
+    const renderSizes = sizes?.map((s, index) => {
         return (
             <li key={index} onClick={() => setSize(s)}>
                 <p className="font-sm px-3 m-0">
@@ -116,7 +116,7 @@ export default function ProductDetail({ title, description, images, price, sizes
                                         </p>
                                     </button>
                                 </div>
-                                <div className="d-none d-md-flex justify-content-end">
+                                <div className="d-none d-md-flex justify-content-end mt-5 mt-xl-0">
                                     <div className="d-inline-flex justify-content-start align-items-center text-color-gray gap-2"
                                         onClick={() => setShowDetail(false)}
                                         style={{ cursor: "pointer" }}

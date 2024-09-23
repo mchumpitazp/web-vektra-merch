@@ -17,7 +17,8 @@ export default function MainProducts() {
                 title={product.title}
                 subtitle={product.subtitle}
                 amount={product.amount}
-                amountExtra={product.amount_extra} />
+                amountExtra={product.amount_extra}
+                sizes={product.sizes} />
         );
     });
 

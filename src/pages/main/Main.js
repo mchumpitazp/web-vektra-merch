@@ -5,6 +5,7 @@ import MainHero from "./MainHero";
 import MainHowItWorks from "./MainHowItWorks";
 import MainPanels from "./MainPanels";
 import MainProducts from "./MainProducts";
+import MainFooter from './MainFooter';
 
 export default function Main() {
     return (
@@ -16,6 +17,7 @@ export default function Main() {
             <MainProducts />
             <MainPanels />
             <MainFaq />
+            <MainFooter />
         </>
     )
 }
